@@ -70,7 +70,9 @@ python -m venv .venv
 .venv\Scripts\activate       # Windows işletim sistemi için
 source .venv/bin/activate   # macOS/Linux işletim sistemi için
 
-Sanal ortam(venv), bir Python projesinde kullanacağınız programları ve kütüphaneleri, bilgisayarının geri kalanından ayrı bir klasörde saklayan özel bir alandır. Böylece her proje, kendi ihtiyacı olan sürümleri kullanır ve diğer projelerle karışmaz. Böylece programımızın kurulumunda ve programımızın iyi bir şekilde çalışmasına yardımcı olur.
+
+
+Sonrasında terminalde pip install -r requirements.txt diyerek gerekli kütüphanler kurulmalıdır ki programımız daha sağlıklı bir şekilde çalışabilsin. Ayrıca sanal ortam(venv), bir Python projesinde kullanacağınız programları ve kütüphaneleri, bilgisayarının geri kalanından ayrı bir klasörde saklayan özel bir alandır. Böylece her proje, kendi ihtiyacı olan sürümleri kullanır ve diğer projelerle karışmaz. Böylece programımızın kurulumunda ve programımızın iyi bir şekilde çalışmasına yardımcı olur.
 
 Son olarak bu ViT modeli kullanılan Cifar-10 görsel sınıflandırıcı uygulamasının demo videosuna ulaşmak için demo klasörü içerisinde yer alan txt dosyası içerisindeki drive linkinden ilgili demo videosuna ulaşabilirsiniz.
 
