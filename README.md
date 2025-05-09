@@ -62,13 +62,13 @@ Bu komut, modelin accuracy, precision, recall ve F1-score gibi performans metrik
 - scikit-learn
 
 ## Dipnot
-Bu projede arayüz ve sonuçlar klasöründe programın arayüzüne ve programın sağlam çalışıp çalışmadığını test etmek için bu cifar-10 verisetindeki 10 tane kategorilerin her biri ile ilgili örneğin at kategorisi ile ilgili rasgele 5 tane görsel yükledik uygulamamıza bu 5 görselin 5 ini doğru tahmin etti yani kısacası cifar-10 verisetindeki 10 tane kategorilerin her bir kategori ile ilgili 5 tane rastgele görsel yükledik 5 ini doğru bir şekilde programımız tahmin etti. Bu ilgili testlerin sonucuna ulaşmak için ise sonuçlar klasöründen ulaşabilirsiniz.Modelimizin accuracy,presicion,recall,f1-score değerlerini görüntülemek için ise modelimizin accuracy,presicion,recall,f1-score değerleri adlı klasörden ulaşabilirsiniz. Bu programdaki .py dosyalarını çalıştırmadan önce gerekli paketlerin yüklenmesi gerekmektedir.
+Bu projede arayüz ve sonuçlar klasöründe programın arayüzüne ve programın sağlam çalışıp çalışmadığını test etmek için bu cifar-10 verisetindeki 10 tane kategorilerin her biri ile ilgili örneğin at kategorisi ile ilgili rastgele 5 tane görsel yükledik uygulamamıza bu 5 görselin 5 ini doğru tahmin etti yani kısacası cifar-10 verisetindeki 10 tane kategorilerin her bir kategori ile ilgili 5 tane rastgele görsel yükledik 5 ini doğru bir şekilde programımız tahmin etti. Bu ilgili testlerin sonucuna ulaşmak için ise sonuçlar klasöründen ulaşabilirsiniz.Modelimizin accuracy,presicion,recall,f1-score değerlerini görüntülemek için ise modelimizin accuracy,presicion,recall,f1-score değerleri adlı klasörden ulaşabilirsiniz. Bu programdaki .py dosyalarını çalıştırmadan önce gerekli paketlerin yüklenmesi gerekmektedir.
 
 Ayrıca Uygulama Python 3.10 veya 3.11 ile en iyi performansı göstermektedir ve programın daha iyi ve daha sağlıklı bir şekilde kurulması için .venv klasörü oluşturulup sonrasında bu klasörün içinde bir sanal ortamın oluşturulup sırası ile aşağıdaki kodları kullanarak aktif edilmelidir. 
 
-python -m venv venv
-venv\Scripts\activate       # Windows işletim sistemi için
-source venv/bin/activate   # macOS/Linux işletim sistemi için
+python -m venv .venv
+.venv\Scripts\activate       # Windows işletim sistemi için
+source .venv/bin/activate   # macOS/Linux işletim sistemi için
 
 Sanal ortam(venv), bir Python projesinde kullanacağınız programları ve kütüphaneleri, bilgisayarının geri kalanından ayrı bir klasörde saklayan özel bir alandır. Böylece her proje, kendi ihtiyacı olan sürümleri kullanır ve diğer projelerle karışmaz. Böylece programımızın kurulumunda ve programımızın iyi bir şekilde çalışmasına yardımcı olur.
 
